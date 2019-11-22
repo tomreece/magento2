@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ /**
+  * Copyright © Magento, Inc. All rights reserved.
+  * See COPYING.txt for license details.
+  */
+-->
+
+<tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/testSchema.xsd">
+    <test name="GoogleTest">
+        <annotations>
+            <features value="this is a feature"/>
+            <stories value="this is a story"/>
+            <title value="this is a title"/>
+            <description value="this is a description"/>
+            <severity value="CRITICAL"/>
+            <testCaseId value="MQE-99999"/>
+            <group value="google"/>
+        </annotations>
+        
+        <amOnUrl url="https://google.com" stepKey="gotoGoogle"/>
+        <seeInTitle userInput="Google" stepKey="seeTitle"/>
+    </test>
+</tests>

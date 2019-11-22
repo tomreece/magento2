@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e75fa994f056960e832018efd6af5a40",
+    "content-hash": "96313cae8b6ab545228e8613d56d3572",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -530,6 +530,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -7208,22 +7209,22 @@
         },
         {
             "name": "magento/magento2-functional-testing-framework",
-            "version": "2.5.3",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento2-functional-testing-framework.git",
-                "reference": "f627085a469da79e4a628d4bf0452f12aefa4389"
+                "reference": "26ef6b0b9cb5c761fb586f8857330627863a9f49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/f627085a469da79e4a628d4bf0452f12aefa4389",
-                "reference": "f627085a469da79e4a628d4bf0452f12aefa4389",
+                "url": "https://api.github.com/repos/magento/magento2-functional-testing-framework/zipball/26ef6b0b9cb5c761fb586f8857330627863a9f49",
+                "reference": "26ef6b0b9cb5c761fb586f8857330627863a9f49",
                 "shasum": ""
             },
             "require": {
                 "allure-framework/allure-codeception": "~1.3.0",
-                "codeception/codeception": "~2.3.4 || ~2.4.0 ",
-                "composer/composer": "^1.4",
+                "codeception/codeception": "~2.4.5",
+                "composer/composer": "^1.6",
                 "consolidation/robo": "^1.0.0",
                 "csharpru/vault-php": "~3.5.3",
                 "csharpru/vault-php-guzzle6-transport": "^2.0",
@@ -7282,7 +7283,7 @@
                 "magento",
                 "testing"
             ],
-            "time": "2019-10-31T14:52:02+00:00"
+            "time": "2019-11-21T18:36:04+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -10223,6 +10224,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "magento/magento2-functional-testing-framework": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": true,
